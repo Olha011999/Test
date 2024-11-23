@@ -6,13 +6,14 @@ public class TestOlha {
         a=10;
         b=20;
 
-        calculateSum(a, b);
+        System.out.println(calculateSum(a, b));
 
 
     }
 
-    private static void calculateSum(int a, int b) {
+    private static int calculateSum(int a, int b) {
         int res = a + b;
-        System.out.println(res);
+
+        return res;
     }
 }
